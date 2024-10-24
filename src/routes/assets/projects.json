@@ -1,0 +1,146 @@
+[
+    {
+        "order": 1,
+        "name": "How elderly dementia patients are unwittingly fueling political campaigns",
+        "img": "elderly-phone-c-still.png",
+        "type": "data interactive",
+        "new": 1,
+        "url": "https://edition.cnn.com/interactive/2024/10/politics/political-fundraising-elderly-election-invs-dg/"
+    },
+    {
+        "order": 2,
+        "name": "Hezbollah: A visual guide",
+        "img": "hp-card-01.png",
+        "type": "data carto",
+        "new": 1,
+        "url": "https://edition.cnn.com/2024/08/24/middleeast/hezbollah-weapons-visuals-intl-dg/index.html"
+    },
+    {
+        "order": 3,
+        "name": "How indiscriminate Israeli fire killed half a family in Gaza",
+        "img": "20240227-card.jpg",
+        "type": "carto interactive",
+        "new": 0,
+        "url": "https://edition.cnn.com/interactive/2024/02/middleeast/israel-bombing-family-gaza-investigation-intl-cmd/"
+    },
+    {
+        "order": 4,
+        "name": "Cicadas Rising: A visual guide to 2024’s rare dual appearance",
+        "img": "20240503-hp_cicadamodel.jpg",
+        "type": "explainer",
+        "new": 0,
+        "url": "https://edition.cnn.com/interactive/2024/04/us/periodical-cicada-2024-visual-guide-scn-dg/"
+    },
+    {
+        "order": 5,
+        "name": "Toyota is hitting the gas on hybrids as EV sales cool. ",
+        "img": "toyota-hybrid-sales.jpg",
+        "type": "data",
+        "new": 0,
+        "url": "https://edition.cnn.com/2024/03/10/climate/hybrids-evs-toyota-climate-impact-int/index.html"
+    },
+    {
+        "order": 6,
+        "name": "Visualizing the Baltimore Key Bridge collapse",
+        "img": "hp-20240326-baltimore-ship-traffic.png",
+        "type": "data carto",
+        "new": 0,
+        "url": "https://edition.cnn.com/2024/03/28/us/visuals-maps-key-bridge-ship-collapse-dg/index.html"
+    },
+    {
+        "order": 7,
+        "name": "New-wave reactor technology could kick-start a nuclear renaissance",
+        "img": "us-china-russia-nuclear-power-final3.jpg",
+        "type": "data carto",
+        "new": 0,
+        "url": "https://edition.cnn.com/2024/02/01/climate/nuclear-small-modular-reactors-us-russia-china-climate-solution-intl/index.html"
+    },
+    {
+        "order": 8,
+        "name": "How Gaza’s hospitals became battlegrounds",
+        "img": "20240111-gaza-hospitals-card.jpg",
+        "type": "carto interactive",
+        "new": 0,
+        "url": "https://edition.cnn.com/interactive/2024/01/middleeast/gaza-hospitals-destruction-investigation-intl-cmd/"
+    },
+    {
+        "order": 12,
+        "name": "Fuel is a vital lifeline in resource-strapped Gaza. Here’s why",
+        "img": "gaza-fuel-hp.jpg",
+        "type": "carto",
+        "new": 0,
+        "url": "https://edition.cnn.com/2023/10/30/middleeast/fuel-gaza-crisis-map-dg/index.html"
+    },
+    {
+        "order": 13,
+        "name": "Visualizing the Israel-Hamas war",
+        "img": "hostages-timeline-hp-art-largetease.png",
+        "type": "carto",
+        "new": 0,
+        "url": "https://edition.cnn.com/2023/10/10/world/map-israel-hamas-war-dg/index.html"
+    },
+    {
+        "order": 15,
+        "name": "Analysis of images and videos suggests rocket caused Gaza hospital blast",
+        "img": "heat-future-olympics.jpg",
+        "type": "carto",
+        "new": 0,
+        "url": "https://edition.cnn.com/2023/10/21/middleeast/cnn-investigates-forensic-analysis-gaza-hospital-blast/index.html"
+    },
+    {
+        "order": 16,
+        "name": "The Iron Dome, explained and visualized",
+        "img": "iron-dome-explainer-homepage-still-1.jpg",
+        "type": "explainer",
+        "new": 0,
+        "url": "https://edition.cnn.com/2023/10/09/world/iron-dome-israel-defense-explained-intl-dg"
+    },
+    {
+        "order": 17,
+        "name": "Ukraine aid: Where the money is coming from, in 4 charts",
+        "img": "aid-hp-image-2024.jpg",
+        "type": "data",
+        "new": 0,
+        "url": "https://edition.cnn.com/2023/10/05/world/ukraine-money-military-aid-intl-dg/index.html"
+    },
+    {
+        "order": 18,
+        "name": "Seeking a breakthrough: A visual guide to Ukraine’s counteroffensive",
+        "img": "230907163905-ukraine-counteroffensive-hp-card1.jpg",
+        "type": "carto interactive",
+        "new": 0,
+        "url": "https://edition.cnn.com/interactive/2023/09/world/ukraine-war-counteroffensive-maps-guide-dg/"
+    },
+    {
+        "order": 20,
+        "name": "Explosion likely brought down aircraft carrying Wagner boss",
+        "img": "heat-future-olympics.jpg",
+        "type": "explainer",
+        "new": 0,
+        "url": "https://edition.cnn.com/2023/08/25/europe/prigozhin-plane-crash-visual-investigation-cmd-intl/index.html"
+    },
+    {
+        "order": 21,
+        "name": "Britain’s shadowy border",
+        "img": "heat-future-olympics.jpg",
+        "type": "data",
+        "new": 0,
+        "url": "https://edition.cnn.com/interactive/2023/07/uk/migrant-crossings-ai-small-boats/"
+    },
+    {
+        "order": 24,
+        "name": "Where the deadliest twisters touch down in the US",
+        "img": "tornadoes-thumb-largetease.png",
+        "type": "carto",
+        "new": 0,
+        "url": "https://edition.cnn.com/2023/06/09/weather/deadliest-tornadoes-us-southern-tornado-alley-dg/index.html"
+    },
+    {
+        "order": 25,
+        "name": "A ‘once-in-200 years’ heat wave caught Southeast Asia off guard",
+        "img": "heat-future-olympics.jpg",
+        "type": "data carto",
+        "new": 0,
+        "url": "https://edition.cnn.com/2023/06/06/asia/southeast-asia-heat-wave-humidity-climate-intl-hnk-dst-scn-dg/index.html"
+    }
+]
