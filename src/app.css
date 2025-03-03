@@ -371,11 +371,25 @@ footer {
   }
 
   .titles {
-    width: 100%;
+    width: 80%;
+  }
+
+  .links {
+    width: 20%;
+    padding: 0;
+    text-align: right;
+  }
+
+  .content {
+    padding-top: 100px;
   }
 
   .bio {
     width: 95%;
+  }
+
+  .key-text {
+    padding: 0 2px;
   }
 
   .key-text button:first-of-type {

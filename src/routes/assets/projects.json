@@ -16,20 +16,20 @@
         "url": "https://edition.cnn.com/2025/02/23/world/charts-ukraine-war-status-dg/index.html"
     },
     {
-        "order": 3,
-        "name": "How Syria’s rebels toppled the Assad regime, in 7 maps",
-        "img": "hp-image-syria-control-9dec.jpg",
-        "type": "carto",
-        "new": 0,
-        "url": "https://edition.cnn.com/world/middleeast/map-syria-civil-war-assad-dg/index.html"
-    },
-    {
         "order": 4,
         "name": "Hezbollah: A visual guide",
         "img": "hp-card-01.png",
         "type": "data carto",
         "new": 0,
         "url": "https://edition.cnn.com/2024/08/24/middleeast/hezbollah-weapons-visuals-intl-dg/index.html"
+    },
+    {
+        "order": 3,
+        "name": "How Syria’s rebels toppled the Assad regime, in 7 maps",
+        "img": "hp-image-syria-control-9dec.jpg",
+        "type": "carto",
+        "new": 0,
+        "url": "https://edition.cnn.com/world/middleeast/map-syria-civil-war-assad-dg/index.html"
     },
     {
         "order": 5,
@@ -154,7 +154,7 @@
     {
         "order": 20,
         "name": "Britain’s shadowy border",
-        "img": "heat-future-olympics.jpg",
+        "img": "230726164209-01-uk-asylum-boats-overlay-tease.jpg",
         "type": "data",
         "new": 0,
         "url": "https://edition.cnn.com/interactive/2023/07/uk/migrant-crossings-ai-small-boats/"
@@ -170,7 +170,7 @@
     {
         "order": 22,
         "name": "A ‘once-in-200 years’ heat wave caught Southeast Asia off guard",
-        "img": "heat-future-olympics.jpg",
+        "img": "230526111920-03-thailand-heatwave-0425.jpg",
         "type": "data carto",
         "new": 0,
         "url": "https://edition.cnn.com/2023/06/06/asia/southeast-asia-heat-wave-humidity-climate-intl-hnk-dst-scn-dg/index.html"
