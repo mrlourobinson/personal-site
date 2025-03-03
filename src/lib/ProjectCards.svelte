@@ -100,7 +100,7 @@
             </section>
         </a>
         {#if proj.new == 1}
-            <div class="new">NEW</div>
+            <div class="new" style="background-image: url('../img/new.svg')">NEW</div>
         {/if}
     </div>
     {/each}
