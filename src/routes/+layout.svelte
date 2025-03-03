@@ -1,7 +1,7 @@
 <main>
   <header>
     <section class="titles">
-      <div id="mark"></div>
+      <div id="mark" style="background-image: url('../img/face.svg')"></div>
       <span class="top-item name">
         <a href="../">Lou Robinson</a>
       </span>
