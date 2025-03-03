@@ -16,12 +16,12 @@
 }
 
 a {
-  font-weight: 700;
+  font-weight: 600;
   color: #272727;
   text-decoration: inherit;
 }
 a:hover {
-  font-weight: 100;
+  
 }
 
 body {
@@ -221,7 +221,7 @@ header {
   margin-right: 20px;
   background-color: #F5CB5C;
   border-radius: 50%;
-  background-image: url('face.svg');
+  background-image: url('../img/face.svg');
   background-position: 100px center;
   background-repeat: no-repeat;
   background-size: contain;

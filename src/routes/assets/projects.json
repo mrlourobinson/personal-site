@@ -1,22 +1,46 @@
 [
     {
         "order": 1,
-        "name": "How elderly dementia patients are unwittingly fueling political campaigns",
-        "img": "elderly-phone-c-still.png",
-        "type": "data interactive",
+        "name": "We analyzed nearly 600 Hallmark cards. Here’s what we learned",
+        "img": "valentines-top-card-simplified.jpg",
+        "type": "data",
         "new": 1,
-        "url": "https://edition.cnn.com/interactive/2024/10/politics/political-fundraising-elderly-election-invs-dg/"
+        "url": "https://edition.cnn.com/2025/02/13/us/valentines-day-cards-trends-dg/index.html"
     },
     {
         "order": 2,
-        "name": "Hezbollah: A visual guide",
-        "img": "hp-card-01.png",
+        "name": "Visualizing how Ukraine has changed in the 3 years since Russia’s invasion",
+        "img": "20250221-ukraine-hp-map.png",
         "type": "data carto",
         "new": 1,
-        "url": "https://edition.cnn.com/2024/08/24/middleeast/hezbollah-weapons-visuals-intl-dg/index.html"
+        "url": "https://edition.cnn.com/2025/02/23/world/charts-ukraine-war-status-dg/index.html"
     },
     {
         "order": 3,
+        "name": "How Syria’s rebels toppled the Assad regime, in 7 maps",
+        "img": "hp-image-syria-control-9dec.jpg",
+        "type": "carto",
+        "new": 0,
+        "url": "https://edition.cnn.com/world/middleeast/map-syria-civil-war-assad-dg/index.html"
+    },
+    {
+        "order": 4,
+        "name": "Hezbollah: A visual guide",
+        "img": "hp-card-01.png",
+        "type": "data carto",
+        "new": 0,
+        "url": "https://edition.cnn.com/2024/08/24/middleeast/hezbollah-weapons-visuals-intl-dg/index.html"
+    },
+    {
+        "order": 5,
+        "name": "The collision between a passenger plane and a Black Hawk helicopter",
+        "img": "dc-helicopter.png",
+        "type": "explainer",
+        "new": 0,
+        "url": "https://edition.cnn.com/2025/01/30/us/maps-plane-helicopter-crash-dca-dg/index.html"
+    },
+    {
+        "order": 6,
         "name": "How indiscriminate Israeli fire killed half a family in Gaza",
         "img": "20240227-card.jpg",
         "type": "carto interactive",
@@ -24,15 +48,23 @@
         "url": "https://edition.cnn.com/interactive/2024/02/middleeast/israel-bombing-family-gaza-investigation-intl-cmd/"
     },
     {
-        "order": 4,
+        "order": 7,
+        "name": "How elderly dementia patients unwittingly fuel political campaigns",
+        "img": "elderly-phone-c-still.png",
+        "type": "data interactive",
+        "new": 0,
+        "url": "https://edition.cnn.com/interactive/2024/10/politics/political-fundraising-elderly-election-invs-dg/"
+    },
+    {
+        "order": 8,
         "name": "Cicadas Rising: A visual guide to 2024’s rare dual appearance",
         "img": "20240503-hp_cicadamodel.jpg",
-        "type": "explainer",
+        "type": "explainer interactive",
         "new": 0,
         "url": "https://edition.cnn.com/interactive/2024/04/us/periodical-cicada-2024-visual-guide-scn-dg/"
     },
     {
-        "order": 5,
+        "order": 9,
         "name": "Toyota is hitting the gas on hybrids as EV sales cool. ",
         "img": "toyota-hybrid-sales.jpg",
         "type": "data",
@@ -40,7 +72,7 @@
         "url": "https://edition.cnn.com/2024/03/10/climate/hybrids-evs-toyota-climate-impact-int/index.html"
     },
     {
-        "order": 6,
+        "order": 10,
         "name": "Visualizing the Baltimore Key Bridge collapse",
         "img": "hp-20240326-baltimore-ship-traffic.png",
         "type": "data carto",
@@ -48,7 +80,7 @@
         "url": "https://edition.cnn.com/2024/03/28/us/visuals-maps-key-bridge-ship-collapse-dg/index.html"
     },
     {
-        "order": 7,
+        "order": 11,
         "name": "New-wave reactor technology could kick-start a nuclear renaissance",
         "img": "us-china-russia-nuclear-power-final3.jpg",
         "type": "data carto",
@@ -56,7 +88,7 @@
         "url": "https://edition.cnn.com/2024/02/01/climate/nuclear-small-modular-reactors-us-russia-china-climate-solution-intl/index.html"
     },
     {
-        "order": 8,
+        "order": 12,
         "name": "How Gaza’s hospitals became battlegrounds",
         "img": "20240111-gaza-hospitals-card.jpg",
         "type": "carto interactive",
@@ -64,7 +96,7 @@
         "url": "https://edition.cnn.com/interactive/2024/01/middleeast/gaza-hospitals-destruction-investigation-intl-cmd/"
     },
     {
-        "order": 12,
+        "order": 13,
         "name": "Fuel is a vital lifeline in resource-strapped Gaza. Here’s why",
         "img": "gaza-fuel-hp.jpg",
         "type": "carto",
@@ -72,7 +104,7 @@
         "url": "https://edition.cnn.com/2023/10/30/middleeast/fuel-gaza-crisis-map-dg/index.html"
     },
     {
-        "order": 13,
+        "order": 14,
         "name": "Visualizing the Israel-Hamas war",
         "img": "hostages-timeline-hp-art-largetease.png",
         "type": "carto",
@@ -112,7 +144,7 @@
         "url": "https://edition.cnn.com/interactive/2023/09/world/ukraine-war-counteroffensive-maps-guide-dg/"
     },
     {
-        "order": 20,
+        "order": 19,
         "name": "Explosion likely brought down aircraft carrying Wagner boss",
         "img": "heat-future-olympics.jpg",
         "type": "explainer",
@@ -120,7 +152,7 @@
         "url": "https://edition.cnn.com/2023/08/25/europe/prigozhin-plane-crash-visual-investigation-cmd-intl/index.html"
     },
     {
-        "order": 21,
+        "order": 20,
         "name": "Britain’s shadowy border",
         "img": "heat-future-olympics.jpg",
         "type": "data",
@@ -128,7 +160,7 @@
         "url": "https://edition.cnn.com/interactive/2023/07/uk/migrant-crossings-ai-small-boats/"
     },
     {
-        "order": 24,
+        "order": 21,
         "name": "Where the deadliest twisters touch down in the US",
         "img": "tornadoes-thumb-largetease.png",
         "type": "carto",
@@ -136,7 +168,7 @@
         "url": "https://edition.cnn.com/2023/06/09/weather/deadliest-tornadoes-us-southern-tornado-alley-dg/index.html"
     },
     {
-        "order": 25,
+        "order": 22,
         "name": "A ‘once-in-200 years’ heat wave caught Southeast Asia off guard",
         "img": "heat-future-olympics.jpg",
         "type": "data carto",
