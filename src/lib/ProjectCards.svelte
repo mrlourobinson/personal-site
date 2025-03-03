@@ -75,7 +75,7 @@
 
 <div class="key">
     <span class="key-label">Filter: </span>
-    <span>
+    <span style="white-space: nowrap;">
         <button class="key-text data" on:click={() => filterCards('data')}>Data</button> 
         <button class="key-text carto" on:click={() => filterCards('carto')}>Cartography</button> 
         <button class="key-text interactive" on:click={() => filterCards('interactive')}>Interactive</button> 
@@ -86,20 +86,22 @@
 <div class="cards">
     {#each projects as proj}
     <div class="card {proj.type}">
-        <div class="legend-container">
-            <Legend type={proj.type}/>
-        </div>
         <a href="{proj.url}">
-            <div class="text-area">
-                <h4>{proj.name}</h4>
-            </div>
             <div class="img-wrapper">
                 <img src="../img/{proj.img}" alt="{proj.name}">
             </div>
+            <section class="title-container">
+                <div class="legend-container">
+                    <Legend type={proj.type}/>
+                </div>
+                <div class="text-area">
+                    <h4>{proj.name}</h4>
+                </div>
+            </section>
         </a>
         {#if proj.new == 1}
             <div class="new">NEW</div>
-        {/if} 
+        {/if}
     </div>
     {/each}
 </div>

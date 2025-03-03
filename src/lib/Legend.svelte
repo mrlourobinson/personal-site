@@ -5,5 +5,5 @@
 </script>
 
 {#each classes as legCol}
-    <div class="legendIcon {legCol}">&#8226;</div>
+    <span class="legendIcon {legCol}">&#8226;</span>
 {/each}
