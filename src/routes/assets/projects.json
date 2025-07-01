@@ -1,30 +1,70 @@
 [
     {
         "order": 1,
-        "name": "We analyzed nearly 600 Hallmark cards. Here’s what we learned",
-        "img": "valentines-top-card-simplified.jpg",
-        "type": "data",
+        "name": "Israel has pushed the US to use its bunker buster bomb on Iran",
+        "img": "20250618-bunker-buster-bomb-hp.jpg",
+        "type": "explainer",
         "new": 1,
-        "url": "https://edition.cnn.com/2025/02/13/us/valentines-day-cards-trends-dg/index.html"
+        "url": "https://edition.cnn.com/2025/06/18/politics/bunker-buster-weapon-explained-dg"
     },
     {
         "order": 2,
-        "name": "Visualizing how Ukraine has changed in the 3 years since Russia’s invasion",
-        "img": "20250221-ukraine-hp-map.png",
-        "type": "data carto",
+        "name": "What we know about the Ukrainian drone attack on Russia",
+        "img": "drone-hp.png",
+        "type": "explainer",
         "new": 1,
-        "url": "https://edition.cnn.com/2025/02/23/world/charts-ukraine-war-status-dg/index.html"
-    },
-    {
-        "order": 4,
-        "name": "Hezbollah: A visual guide",
-        "img": "hp-card-01.png",
-        "type": "data carto",
-        "new": 0,
-        "url": "https://edition.cnn.com/2024/08/24/middleeast/hezbollah-weapons-visuals-intl-dg/index.html"
+        "url": "https://edition.cnn.com/2025/06/02/europe/inside-ukraine-drone-attack-russian-air-bases-latam-intl"
     },
     {
         "order": 3,
+        "name": "Israel’s plan to ‘conquer’ Gaza is leaving people with little place to go",
+        "img": "20250530-gaza-hp-card-04.jpg",
+        "type": "data carto",
+        "new": 1,
+        "url": "https://edition.cnn.com/2025/05/31/middleeast/israel-gaza-strip-occupation-resources-dg"
+    },
+    {
+        "order": 4,
+        "name": "All the twists and turns in the US-China trade war",
+        "img": "trade-tariffs.png",
+        "type": "explainer interactive",
+        "new": 1,
+        "url": "https://edition.cnn.com/2025/04/12/business/us-china-tariffs-trump-timeline-dg"
+    },
+    {
+        "order": 5,
+        "name": "A visual guide to the secretive process of choosing a new pope",
+        "img": "conclave.png",
+        "type": "explainer interactive",
+        "new": 1,
+        "url": "https://edition.cnn.com/2025/04/28/world/conclave-pope-selection-intl-dg"
+    },
+    {
+        "order": 6,
+        "name": "Is Europe ready to defend itself?",
+        "img": "ap24134697015992.jpg",
+        "type": "data carto",
+        "new": 1,
+        "url": "https://edition.cnn.com/2025/05/05/europe/europe-nato-us-military-graphics-cmd-intl-dg"
+    },
+    {
+        "order": 7,
+        "name": "We analyzed nearly 600 Hallmark cards. Here’s what we learned",
+        "img": "valentines-top-card-simplified.jpg",
+        "type": "data",
+        "new": 0,
+        "url": "https://edition.cnn.com/2025/02/13/us/valentines-day-cards-trends-dg/index.html"
+    },
+    {
+        "order": 8,
+        "name": "Visualizing how Ukraine has changed in the 3 years since Russia’s invasion",
+        "img": "20250221-ukraine-hp-map.png",
+        "type": "data carto",
+        "new": 0,
+        "url": "https://edition.cnn.com/2025/02/23/world/charts-ukraine-war-status-dg/index.html"
+    },
+    {
+        "order": 9,
         "name": "How Syria’s rebels toppled the Assad regime, in 7 maps",
         "img": "hp-image-syria-control-9dec.jpg",
         "type": "carto",
@@ -32,7 +72,15 @@
         "url": "https://edition.cnn.com/world/middleeast/map-syria-civil-war-assad-dg/index.html"
     },
     {
-        "order": 5,
+        "order": 10,
+        "name": "Hezbollah: A visual guide",
+        "img": "hp-card-01.png",
+        "type": "data carto",
+        "new": 0,
+        "url": "https://edition.cnn.com/2024/08/24/middleeast/hezbollah-weapons-visuals-intl-dg/index.html"
+    },
+    {
+        "order": 11,
         "name": "The collision between a passenger plane and a Black Hawk helicopter",
         "img": "dc-helicopter.png",
         "type": "explainer",
@@ -40,7 +88,7 @@
         "url": "https://edition.cnn.com/2025/01/30/us/maps-plane-helicopter-crash-dca-dg/index.html"
     },
     {
-        "order": 6,
+        "order": 12,
         "name": "How indiscriminate Israeli fire killed half a family in Gaza",
         "img": "20240227-card.jpg",
         "type": "carto interactive",
@@ -48,7 +96,7 @@
         "url": "https://edition.cnn.com/interactive/2024/02/middleeast/israel-bombing-family-gaza-investigation-intl-cmd/"
     },
     {
-        "order": 7,
+        "order": 13,
         "name": "How elderly dementia patients unwittingly fuel political campaigns",
         "img": "elderly-phone-c-still.png",
         "type": "data interactive",
@@ -56,7 +104,7 @@
         "url": "https://edition.cnn.com/interactive/2024/10/politics/political-fundraising-elderly-election-invs-dg/"
     },
     {
-        "order": 8,
+        "order": 14,
         "name": "Cicadas Rising: A visual guide to 2024’s rare dual appearance",
         "img": "20240503-hp_cicadamodel.jpg",
         "type": "explainer interactive",
@@ -64,7 +112,7 @@
         "url": "https://edition.cnn.com/interactive/2024/04/us/periodical-cicada-2024-visual-guide-scn-dg/"
     },
     {
-        "order": 9,
+        "order": 15,
         "name": "Toyota is hitting the gas on hybrids as EV sales cool. ",
         "img": "toyota-hybrid-sales.jpg",
         "type": "data",
@@ -72,7 +120,7 @@
         "url": "https://edition.cnn.com/2024/03/10/climate/hybrids-evs-toyota-climate-impact-int/index.html"
     },
     {
-        "order": 10,
+        "order": 16,
         "name": "Visualizing the Baltimore Key Bridge collapse",
         "img": "hp-20240326-baltimore-ship-traffic.png",
         "type": "data carto",
@@ -80,7 +128,7 @@
         "url": "https://edition.cnn.com/2024/03/28/us/visuals-maps-key-bridge-ship-collapse-dg/index.html"
     },
     {
-        "order": 11,
+        "order": 17,
         "name": "New-wave reactor technology could kick-start a nuclear renaissance",
         "img": "us-china-russia-nuclear-power-final3.jpg",
         "type": "data carto",
@@ -88,7 +136,7 @@
         "url": "https://edition.cnn.com/2024/02/01/climate/nuclear-small-modular-reactors-us-russia-china-climate-solution-intl/index.html"
     },
     {
-        "order": 12,
+        "order": 18,
         "name": "How Gaza’s hospitals became battlegrounds",
         "img": "20240111-gaza-hospitals-card.jpg",
         "type": "carto interactive",
@@ -96,7 +144,7 @@
         "url": "https://edition.cnn.com/interactive/2024/01/middleeast/gaza-hospitals-destruction-investigation-intl-cmd/"
     },
     {
-        "order": 13,
+        "order": 19,
         "name": "Fuel is a vital lifeline in resource-strapped Gaza. Here’s why",
         "img": "gaza-fuel-hp.jpg",
         "type": "carto",
@@ -104,7 +152,7 @@
         "url": "https://edition.cnn.com/2023/10/30/middleeast/fuel-gaza-crisis-map-dg/index.html"
     },
     {
-        "order": 14,
+        "order": 20,
         "name": "Visualizing the Israel-Hamas war",
         "img": "hostages-timeline-hp-art-largetease.png",
         "type": "carto",
@@ -112,7 +160,7 @@
         "url": "https://edition.cnn.com/2023/10/10/world/map-israel-hamas-war-dg/index.html"
     },
     {
-        "order": 15,
+        "order": 21,
         "name": "Analysis of images and videos suggests rocket caused Gaza hospital blast",
         "img": "heat-future-olympics.jpg",
         "type": "carto",
@@ -120,7 +168,7 @@
         "url": "https://edition.cnn.com/2023/10/21/middleeast/cnn-investigates-forensic-analysis-gaza-hospital-blast/index.html"
     },
     {
-        "order": 16,
+        "order": 22,
         "name": "The Iron Dome, explained and visualized",
         "img": "iron-dome-explainer-homepage-still-1.jpg",
         "type": "explainer",
@@ -128,7 +176,7 @@
         "url": "https://edition.cnn.com/2023/10/09/world/iron-dome-israel-defense-explained-intl-dg"
     },
     {
-        "order": 17,
+        "order": 23,
         "name": "Ukraine aid: Where the money is coming from, in 4 charts",
         "img": "aid-hp-image-2024.jpg",
         "type": "data",
@@ -136,7 +184,7 @@
         "url": "https://edition.cnn.com/2023/10/05/world/ukraine-money-military-aid-intl-dg/index.html"
     },
     {
-        "order": 18,
+        "order": 24,
         "name": "Seeking a breakthrough: A visual guide to Ukraine’s counteroffensive",
         "img": "230907163905-ukraine-counteroffensive-hp-card1.jpg",
         "type": "carto interactive",
@@ -144,7 +192,7 @@
         "url": "https://edition.cnn.com/interactive/2023/09/world/ukraine-war-counteroffensive-maps-guide-dg/"
     },
     {
-        "order": 19,
+        "order": 25,
         "name": "Explosion likely brought down aircraft carrying Wagner boss",
         "img": "heat-future-olympics.jpg",
         "type": "explainer",
@@ -152,7 +200,7 @@
         "url": "https://edition.cnn.com/2023/08/25/europe/prigozhin-plane-crash-visual-investigation-cmd-intl/index.html"
     },
     {
-        "order": 20,
+        "order": 26,
         "name": "Britain’s shadowy border",
         "img": "230726164209-01-uk-asylum-boats-overlay-tease.jpg",
         "type": "data",
@@ -160,7 +208,7 @@
         "url": "https://edition.cnn.com/interactive/2023/07/uk/migrant-crossings-ai-small-boats/"
     },
     {
-        "order": 21,
+        "order": 27,
         "name": "Where the deadliest twisters touch down in the US",
         "img": "tornadoes-thumb-largetease.png",
         "type": "carto",
@@ -168,7 +216,7 @@
         "url": "https://edition.cnn.com/2023/06/09/weather/deadliest-tornadoes-us-southern-tornado-alley-dg/index.html"
     },
     {
-        "order": 22,
+        "order": 28,
         "name": "A ‘once-in-200 years’ heat wave caught Southeast Asia off guard",
         "img": "230526111920-03-thailand-heatwave-0425.jpg",
         "type": "data carto",
