@@ -1,29 +1,29 @@
-order,name,img,type,new,url
-1,Israel has pushed the US to use its bunker buster bomb on Iran,20250618-bunker-buster-bomb-hp.jpg,explainer,1,https://edition.cnn.com/2025/06/18/politics/bunker-buster-weapon-explained-dg
-2,What we know about the Ukrainian drone attack on Russia,drone-hp.png,explainer,1,https://edition.cnn.com/2025/06/02/europe/inside-ukraine-drone-attack-russian-air-bases-latam-intl
-3,Israel’s plan to ‘conquer’ Gaza is leaving people with little place to go,20250530-gaza-hp-card-04.jpg,data carto,1,https://edition.cnn.com/2025/05/31/middleeast/israel-gaza-strip-occupation-resources-dg
-4,All the twists and turns in the US-China trade war,trade-tariffs.png,explainer interactive,1,https://edition.cnn.com/2025/04/12/business/us-china-tariffs-trump-timeline-dg
-5,A visual guide to the secretive process of choosing a new pope,conclave.png,explainer interactive,1,https://edition.cnn.com/2025/04/28/world/conclave-pope-selection-intl-dg
-6,Is Europe ready to defend itself?,ap24134697015992.jpg,data carto,1,https://edition.cnn.com/2025/05/05/europe/europe-nato-us-military-graphics-cmd-intl-dg
-7,We analyzed nearly 600 Hallmark cards. Here’s what we learned,valentines-top-card-simplified.jpg,data,0,https://edition.cnn.com/2025/02/13/us/valentines-day-cards-trends-dg/index.html
-8,Visualizing how Ukraine has changed in the 3 years since Russia’s invasion,20250221-ukraine-hp-map.png,data carto,0,https://edition.cnn.com/2025/02/23/world/charts-ukraine-war-status-dg/index.html
-9,"How Syria’s rebels toppled the Assad regime, in 7 maps",hp-image-syria-control-9dec.jpg,carto,0,https://edition.cnn.com/world/middleeast/map-syria-civil-war-assad-dg/index.html
-10,Hezbollah: A visual guide,hp-card-01.png,data carto,0,https://edition.cnn.com/2024/08/24/middleeast/hezbollah-weapons-visuals-intl-dg/index.html
-11,The collision between a passenger plane and a Black Hawk helicopter,dc-helicopter.png,explainer,0,https://edition.cnn.com/2025/01/30/us/maps-plane-helicopter-crash-dca-dg/index.html
-12,How indiscriminate Israeli fire killed half a family in Gaza,20240227-card.jpg,carto interactive,0,https://edition.cnn.com/interactive/2024/02/middleeast/israel-bombing-family-gaza-investigation-intl-cmd/
-13,How elderly dementia patients unwittingly fuel political campaigns,elderly-phone-c-still.png,data interactive,0,https://edition.cnn.com/interactive/2024/10/politics/political-fundraising-elderly-election-invs-dg/
-14,Cicadas Rising: A visual guide to 2024’s rare dual appearance,20240503-hp_cicadamodel.jpg,explainer interactive,0,https://edition.cnn.com/interactive/2024/04/us/periodical-cicada-2024-visual-guide-scn-dg/
-15,Toyota is hitting the gas on hybrids as EV sales cool. ,toyota-hybrid-sales.jpg,data,0,https://edition.cnn.com/2024/03/10/climate/hybrids-evs-toyota-climate-impact-int/index.html
-16,Visualizing the Baltimore Key Bridge collapse,hp-20240326-baltimore-ship-traffic.png,data carto,0,https://edition.cnn.com/2024/03/28/us/visuals-maps-key-bridge-ship-collapse-dg/index.html
-17,New-wave reactor technology could kick-start a nuclear renaissance,us-china-russia-nuclear-power-final3.jpg,data carto,0,https://edition.cnn.com/2024/02/01/climate/nuclear-small-modular-reactors-us-russia-china-climate-solution-intl/index.html
-18,How Gaza’s hospitals became battlegrounds,20240111-gaza-hospitals-card.jpg,carto interactive,0,https://edition.cnn.com/interactive/2024/01/middleeast/gaza-hospitals-destruction-investigation-intl-cmd/
-19,Fuel is a vital lifeline in resource-strapped Gaza. Here’s why,gaza-fuel-hp.jpg,carto,0,https://edition.cnn.com/2023/10/30/middleeast/fuel-gaza-crisis-map-dg/index.html
-20,Visualizing the Israel-Hamas war,hostages-timeline-hp-art-largetease.png,carto,0,https://edition.cnn.com/2023/10/10/world/map-israel-hamas-war-dg/index.html
-21,Analysis of images and videos suggests rocket caused Gaza hospital blast,heat-future-olympics.jpg,carto,0,https://edition.cnn.com/2023/10/21/middleeast/cnn-investigates-forensic-analysis-gaza-hospital-blast/index.html
-22,"The Iron Dome, explained and visualized",iron-dome-explainer-homepage-still-1.jpg,explainer,0,https://edition.cnn.com/2023/10/09/world/iron-dome-israel-defense-explained-intl-dg
-23,"Ukraine aid: Where the money is coming from, in 4 charts",aid-hp-image-2024.jpg,data,0,https://edition.cnn.com/2023/10/05/world/ukraine-money-military-aid-intl-dg/index.html
-24,Seeking a breakthrough: A visual guide to Ukraine’s counteroffensive,230907163905-ukraine-counteroffensive-hp-card1.jpg,carto interactive,0,https://edition.cnn.com/interactive/2023/09/world/ukraine-war-counteroffensive-maps-guide-dg/
-25,Explosion likely brought down aircraft carrying Wagner boss,heat-future-olympics.jpg,explainer,0,https://edition.cnn.com/2023/08/25/europe/prigozhin-plane-crash-visual-investigation-cmd-intl/index.html
-26,Britain’s shadowy border,230726164209-01-uk-asylum-boats-overlay-tease.jpg,data,0,https://edition.cnn.com/interactive/2023/07/uk/migrant-crossings-ai-small-boats/
-27,Where the deadliest twisters touch down in the US,tornadoes-thumb-largetease.png,carto,0,https://edition.cnn.com/2023/06/09/weather/deadliest-tornadoes-us-southern-tornado-alley-dg/index.html
-28,A ‘once-in-200 years’ heat wave caught Southeast Asia off guard,230526111920-03-thailand-heatwave-0425.jpg,data carto,0,https://edition.cnn.com/2023/06/06/asia/southeast-asia-heat-wave-humidity-climate-intl-hnk-dst-scn-dg/index.html
+order,name,img,type,date,new,url
+1,Israel has pushed the US to use its bunker buster bomb on Iran,20250618-bunker-buster-bomb-hp.jpg,explainer,Jun-25,1,https://edition.cnn.com/2025/06/18/politics/bunker-buster-weapon-explained-dg
+2,What we know about the Ukrainian drone attack on Russia,drone-hp.png,explainer,Jun-25,1,https://edition.cnn.com/2025/06/02/europe/inside-ukraine-drone-attack-russian-air-bases-latam-intl
+3,Israel’s plan to ‘conquer’ Gaza is leaving people with little place to go,20250530-gaza-hp-card-04.jpg,data carto,May-25,1,https://edition.cnn.com/2025/05/31/middleeast/israel-gaza-strip-occupation-resources-dg
+4,A visual guide to the secretive process of choosing a new pope,conclave.png,explainer interactive,Apr-25,1,https://edition.cnn.com/2025/04/28/world/conclave-pope-selection-intl-dg
+5,Is Europe ready to defend itself?,ap24134697015992.jpg,data carto,May-25,1,https://edition.cnn.com/2025/05/05/europe/europe-nato-us-military-graphics-cmd-intl-dg
+6,All the twists and turns in the US-China trade war,trade-tariffs.png,explainer interactive,Apr-25,1,https://edition.cnn.com/2025/04/12/business/us-china-tariffs-trump-timeline-dg
+7,We analyzed nearly 600 Hallmark cards. Here’s what we learned,valentines-top-card-simplified.jpg,data,Feb-25,0,https://edition.cnn.com/2025/02/13/us/valentines-day-cards-trends-dg/index.html
+8,Visualizing how Ukraine has changed in the 3 years since Russia’s invasion,20250221-ukraine-hp-map.png,data carto,Feb-25,0,https://edition.cnn.com/2025/02/23/world/charts-ukraine-war-status-dg/index.html
+9,"How Syria’s rebels toppled the Assad regime, in 7 maps",hp-image-syria-control-9dec.jpg,carto,Dec-24,0,https://edition.cnn.com/world/middleeast/map-syria-civil-war-assad-dg/index.html
+10,Hezbollah: A visual guide,hp-card-01.png,data carto,Aug-24,0,https://edition.cnn.com/2024/08/24/middleeast/hezbollah-weapons-visuals-intl-dg/index.html
+11,The collision between a passenger plane and a Black Hawk helicopter,dc-helicopter.png,explainer,Jan-25,0,https://edition.cnn.com/2025/01/30/us/maps-plane-helicopter-crash-dca-dg/index.html
+12,How indiscriminate Israeli fire killed half a family in Gaza,20240227-card.jpg,carto interactive,Feb-24,0,https://edition.cnn.com/interactive/2024/02/middleeast/israel-bombing-family-gaza-investigation-intl-cmd/
+13,How elderly dementia patients unwittingly fuel political campaigns,elderly-phone-c-still.png,data interactive,Oct-24,0,https://edition.cnn.com/interactive/2024/10/politics/political-fundraising-elderly-election-invs-dg/
+14,Cicadas Rising: A visual guide to 2024’s rare dual appearance,20240503-hp_cicadamodel.jpg,explainer interactive,Apr-25,0,https://edition.cnn.com/interactive/2024/04/us/periodical-cicada-2024-visual-guide-scn-dg/
+15,Toyota is hitting the gas on hybrids as EV sales cool.,toyota-hybrid-sales.jpg,data,Mar-24,0,https://edition.cnn.com/2024/03/10/climate/hybrids-evs-toyota-climate-impact-int/index.html
+16,Visualizing the Baltimore Key Bridge collapse,hp-20240326-baltimore-ship-traffic.png,data carto,Mar-24,0,https://edition.cnn.com/2024/03/28/us/visuals-maps-key-bridge-ship-collapse-dg/index.html
+17,New-wave reactor technology could kick-start a nuclear renaissance,us-china-russia-nuclear-power-final3.jpg,data carto,Feb-24,0,https://edition.cnn.com/2024/02/01/climate/nuclear-small-modular-reactors-us-russia-china-climate-solution-intl/index.html
+18,How Gaza’s hospitals became battlegrounds,20240111-gaza-hospitals-card.jpg,carto interactive,Jan-24,0,https://edition.cnn.com/interactive/2024/01/middleeast/gaza-hospitals-destruction-investigation-intl-cmd/
+19,Fuel is a vital lifeline in resource-strapped Gaza. Here’s why,gaza-fuel-hp.jpg,carto,Oct-23,0,https://edition.cnn.com/2023/10/30/middleeast/fuel-gaza-crisis-map-dg/index.html
+20,Visualizing the Israel-Hamas war,hostages-timeline-hp-art-largetease.png,carto,Oct-23,0,https://edition.cnn.com/2023/10/10/world/map-israel-hamas-war-dg/index.html
+21,Analysis of images and videos suggests rocket caused Gaza hospital blast,heat-future-olympics.jpg,carto,Oct-23,0,https://edition.cnn.com/2023/10/21/middleeast/cnn-investigates-forensic-analysis-gaza-hospital-blast/index.html
+22,"The Iron Dome, explained and visualized",iron-dome-explainer-homepage-still-1.jpg,explainer,Oct-23,0,https://edition.cnn.com/2023/10/09/world/iron-dome-israel-defense-explained-intl-dg
+23,"Ukraine aid: Where the money is coming from, in 4 charts",aid-hp-image-2024.jpg,data,Oct-23,0,https://edition.cnn.com/2023/10/05/world/ukraine-money-military-aid-intl-dg/index.html
+24,Seeking a breakthrough: A visual guide to Ukraine’s counteroffensive,230907163905-ukraine-counteroffensive-hp-card1.jpg,carto interactive,Sep-23,0,https://edition.cnn.com/interactive/2023/09/world/ukraine-war-counteroffensive-maps-guide-dg/
+25,Explosion likely brought down aircraft carrying Wagner boss,heat-future-olympics.jpg,explainer,Aug-23,0,https://edition.cnn.com/2023/08/25/europe/prigozhin-plane-crash-visual-investigation-cmd-intl/index.html
+26,Britain’s shadowy border,230726164209-01-uk-asylum-boats-overlay-tease.jpg,data,Jul-23,0,https://edition.cnn.com/interactive/2023/07/uk/migrant-crossings-ai-small-boats/
+27,Where the deadliest twisters touch down in the US,tornadoes-thumb-largetease.png,carto,Jun-23,0,https://edition.cnn.com/2023/06/09/weather/deadliest-tornadoes-us-southern-tornado-alley-dg/index.html
+28,A ‘once-in-200 years’ heat wave caught Southeast Asia off guard,230526111920-03-thailand-heatwave-0425.jpg,data carto,Jun-23,0,https://edition.cnn.com/2023/06/06/asia/southeast-asia-heat-wave-humidity-climate-intl-hnk-dst-scn-dg/index.html

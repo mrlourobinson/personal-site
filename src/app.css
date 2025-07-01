@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 :root {
-  font-family: "Space Mono", monospace;
+  font-family: "Inter", sans-serif;
   line-height: 1.5;
   font-weight: 200;
   font-synthesis: none;
@@ -13,6 +13,13 @@
   --explainer: #00A6A6;
   --data: #347FC4;
   --interactive: #F86624;
+
+  --accent-color: #F5CB5C;
+  --bg-colour: #f9f9f9;
+
+  --base-icon-size: 22.5px;
+  --icon-margin: 8px;
+  --legend-icon-size: calc(var(--base-icon-size) - var(--icon-margin));
 }
 
 a {
@@ -51,16 +58,19 @@ h4 {
 }
 
 .cards h4 {
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 700;
+  line-height: 20px;
   height: 30px;
 }
 
 .card {
-  flex: 1 1 calc(33.333% - 1rem); /* Adjust to control the width of each card */
-  max-width: calc(33.333%);
+  flex: 1 1 calc(22%); /* Adjust to control the width of each card */
+  max-width: calc(33.333% - 2.999%);
   display: flex;
   flex-direction: column; /* To position the content vertically */
+  background-color: var(--bg-colour);
+  padding: 1%;
 }
 
 .legend-container {
@@ -74,7 +84,7 @@ h4 {
 .img-wrapper {
   position: relative;
   width: 100%;
-  padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+  padding-bottom: calc(56.25%); /* 16:9 Aspect Ratio */
   overflow: hidden;
 }
 
@@ -87,7 +97,7 @@ h4 {
   object-fit: cover;
 }
 
-.new {
+/* .new {
   position: absolute;
   top: 15px;
   right: 15px;
@@ -102,15 +112,35 @@ h4 {
   font-weight: 600;
   transition: transform 0.5s ease-in-out;
   filter: drop-shadow(0 0 8px #0000001e);
+} */
+
+.new {
+  font-weight: 400;
+  font-size: 15px;
+  color: #6f6f6f;
+  position: relative;
+  float: left;
+  padding: 1px;
+  width: 45px;
+  text-align: center;
+  margin: 0 var(--icon-margin) 10px 0;
+  background-color: #fff;
+  border: #F5CB5C 0.5px solid;
+  border-radius: 10%;
 }
 
-.new:hover {
-  transform: rotate(15deg);
+.date {
+  font-weight: 600;
+  font-size: 15px;
+  color: #838383;
+  position: relative;
+  float: right;
+  padding: 1px;
+  width: 30%;
+  text-align: right;
+  margin: 0 0 10px 0;
 }
 
-.carto, .data, .explainer, .interactive {
-  position: relative; /* Ensure all circles are positioned relative to the element */
-}
 
 .title-container {
   display: flex;
@@ -119,22 +149,21 @@ h4 {
   row-gap: 1px;
   margin-bottom: 10px;
   align-items: center;
-  margin-left: -10px;
+  text-wrap: balance;
 }
 
 .text-area {
-  width: 90%;
+  width: 100%;
 }
 
 .legendIcon {
-  font-size: 50px;
-  top: 0;
-  line-height: 0.6;
-  width: 15px;
-  height: 15px;
+  height: var(--legend-icon-size);
+  width: var(--legend-icon-size);
+
+  border-radius: 15%;
   display: inline-block;
-  margin: 0;
-  padding: 0;
+  /* margin: 0;
+  padding: 0; */
 }
 
 .legend-container {
@@ -143,26 +172,19 @@ h4 {
   flex-direction: column;
 }
 
-
-/* Red circle for 'carto' at the top-right */
-.carto {
-  color: var(--carto);
+#key-buttons {
+  float: right;
 }
 
-/* Blue circle for 'data' at the top-left */
-.data {
-  color: var(--data);
-}
+.legendIcon.carto { background-color: var(--carto); }
+.legendIcon.data { background-color: var(--data); }
+.legendIcon.explainer { background-color: var(--explainer); }
+.legendIcon.interactive { background-color: var(--interactive); }
 
-/* Green circle for 'explainer' at the bottom-left */
-.explainer {
-  color: var(--explainer);
-}
-
-/* Yellow circle for 'interactive' at the bottom-right */
-.interactive {
-  color: var(--interactive);
-}
+.carto { color: var(--carto); }
+.data { color: var(--data); }
+.explainer { color: var(--explainer); }
+.interactive { color: var(--interactive); }
 
 .key {
   width: 100%;
@@ -209,7 +231,7 @@ header {
   width: 55px;
   float: left;
   margin-right: 20px;
-  background-color: #F5CB5C;
+  background-color: var(--accent-color);
   border-radius: 50%;
 }
 
@@ -234,7 +256,7 @@ header #mark:hover {
 
 .links {
   position: relative;
-  float: right;
+  float: left;
   width: 49%;
   text-align: right;
 }
@@ -263,6 +285,7 @@ header #mark:hover {
 .bottom-border {
   display: inline-flex;
   padding-bottom: 1ch;
+  margin-bottom: 3ch;
   width: 100%;
   border-bottom: 1px solid #5A5A5A;
 }
@@ -336,12 +359,12 @@ footer {
   font-size: .9em;
 }
 
-@media screen and (max-width: 900px) {
+/* @media screen and (max-width: 900px) {
   .card {
     flex: 1 1 calc(50% - 10px); /* Adjust to control the width of each card */
-    max-width: 100%;
-  }
-}
+    /* max-width: 100%; */
+  /* }
+} */ */
 
 @media screen and (max-width: 700px) {
   header {

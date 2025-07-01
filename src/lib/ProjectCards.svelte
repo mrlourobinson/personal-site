@@ -1,109 +1,62 @@
 <script>
-    import Legend from '../lib/Legend.svelte'
+  import { crossfade, fade, fly } from 'svelte/transition';
+  import Legend from '../lib/Legend.svelte';
 
-    export let projects = []
-    let filtered = false;
-    let currentFilter = '';
-    
+  export let projects = [];
+
+  let filtered = false;
+  let currentFilter = '';
+  let visibleProjects = [...projects];
+
     function filterCards(classToKeep) {
-
-        // Select all card elements
-        const cards = document.querySelectorAll('.card');
-
-        
-        
-        if(filtered == false || filtered == true && currentFilter != classToKeep) {
-            // Loop through each card
-            cards.forEach(card => {
-                // Check if the card contains the secondary class
-                if (!card.classList.contains(classToKeep)) {
-                    // If the card doesn't have the secondary class, hide it but maintain layout
-                    card.style.display = 'none';
-                } else {
-                    card.style.display = 'flex';
-                }
-            });
-
-            const buttons = document.querySelectorAll('.key-text');
-
-            buttons.forEach(but => {
-                    // Check if the card contains the secondary class
-                    if (!but.classList.contains(classToKeep)) {
-                        // If the card doesn't have the secondary class, hide it but maintain layout
-                        but.style.opacity = 0.5;
-                        but.classList.remove('highlighted');
-                        
-                    } else {
-                        but.style.opacity = 1;     
-                        but.classList.add('highlighted');
-           
-                    }
-                })
-
-
-            filtered = true;
-            currentFilter = classToKeep;
-        } else {
-            // Loop through each card
-            cards.forEach(card => {
-                // Check if the card contains the secondary class
-                if (!card.classList.contains(classToKeep)) {
-                    // If the card doesn't have the secondary class, hide it but maintain layout
-                    card.style.display = 'flex';
-                }
-            });
-
-            const buttons = document.querySelectorAll('.key-text')
-            buttons.forEach(but => {
-                but.style.opacity = 1;
-                but.classList.remove('highlighted');
-            })
-
-            filtered = false;
-            currentFilter = '';
-        }
-
+    if (!filtered || currentFilter !== classToKeep) {
+        visibleProjects = projects.filter(p => p.type.includes(classToKeep));
+        filtered = true;
+        currentFilter = classToKeep;
+    } else {
+        visibleProjects = [...projects];
+        filtered = false;
+        currentFilter = '';
     }
-
-
-
+    }
 </script>
 
 <div class="section-title bottom-border">
-    Projects
+    
+    <div class="key">
+        <span class="key-label">Projects</span>
+        <span id="key-buttons" style="white-space: nowrap;">
+            <span class="key-label">Filter: </span>
+            <button class="key-text data" on:click={() => filterCards('data')}>Data</button> 
+            <button class="key-text carto" on:click={() => filterCards('carto')}>Cartography</button> 
+            <button class="key-text interactive" on:click={() => filterCards('interactive')}>Interactive</button> 
+            <button class="key-text explainer" on:click={() => filterCards('explainer')}>Explainer</button> 
+        </span> 
+    </div>
 </div>
 
-<div class="key">
-    <span class="key-label">Filter: </span>
-    <span style="white-space: nowrap;">
-        <button class="key-text data" on:click={() => filterCards('data')}>Data</button> 
-        <button class="key-text carto" on:click={() => filterCards('carto')}>Cartography</button> 
-        <button class="key-text interactive" on:click={() => filterCards('interactive')}>Interactive</button> 
-        <button class="key-text explainer" on:click={() => filterCards('explainer')}>Explainer</button> 
-    </span> 
-</div>
+
 
 <div class="cards">
-    {#each projects as proj}
-    <div class="card {proj.type}">
-        <a href="{proj.url}">
-            <div class="img-wrapper">
-                <img src="../img/{proj.img}" alt="{proj.name}">
-            </div>
-            <section class="title-container">
-                <div class="legend-container">
-                    <Legend type={proj.type}/>
-                </div>
-                <div class="text-area">
-                    <h4>{proj.name}</h4>
-                </div>
-            </section>
-        </a>
+  {#each visibleProjects as proj (proj.name)}
+    <div class="card {proj.type}" transition:fade>
+      <a href="{proj.url}">
         {#if proj.new == 1}
-            <div class="new" style="background-image: url('../img/new.svg')">NEW</div>
+          <div class="new">New</div>
         {/if}
+        <Legend type={proj.type} />
+        <div class="date">{proj.date}</div>
+        <div class="img-wrapper">
+          <img src="../img/{proj.img}" alt="{proj.name}" />
+        </div>
+        <section class="title-container">
+          <div class="text-area">
+            <h4>{proj.name}</h4>
+          </div>
+        </section>
+      </a>
     </div>
-    {/each}
+  {/each}
 </div>
 
 
