@@ -30,7 +30,7 @@
 
 </main>
 <footer>
-  © 2024 | Lou Robinson
+  Lou Robinson
 </footer>
 
 <style>
