@@ -9,10 +9,10 @@
     </section>
     <section class="links">
       <span class="top-item link" id="work">
-        <a href=".">Work</a>
+        <a href="/">Work</a>
       </span>
       <span class="top-item link" id="about">
-        <a href=".">About</a>
+        <a href="/about">About</a>
       </span>
     </section>
   </header>

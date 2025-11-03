@@ -3,7 +3,7 @@
     <section class="titles">
       <div id="mark" style="background-image: url('../img/face.svg')"></div>
       <span class="top-item name">
-        <a href="../">Lou Robinson</a>
+        <a href="/">Lou Robinson</a>
       </span>
       <span class="top-item title">
         Designer and visual journalist
@@ -11,7 +11,7 @@
     </section>
     <section class="links">
       <span class="top-item link" id="work">
-        <a href="..">Work</a>
+        <a href="/">Work</a>
       </span>
       <span class="top-item link" id="about">
         <a href="/about">About</a>
