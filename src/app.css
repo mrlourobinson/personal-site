@@ -332,8 +332,22 @@ header {
   background-repeat: no-repeat;
   background-size: contain;
   transition: background-position 0.5s ease-in-out;
+  animation: appear 3s ease-in-out;
 }
 
+@keyframes appear {
+  from {
+    background-position: 100px center;
+
+  }
+  20%, 80% {
+    background-position: center center;
+  }
+  to {
+      background-position: 100px center;
+
+  }
+}
 
 header #mark:hover {
   background-position: center center;
