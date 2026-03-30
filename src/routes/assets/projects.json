@@ -1,12 +1,46 @@
 [
+    
     {
         "order": 1,
-        "name": "Inside North Korea’s effort to infiltrate US companies",
-        "img": "20250804-nk-hp.jpg",
+        "name": "China’s growing influence in the Pacific is 5,000 meters deep",
+        "img": "deep-sea-mining-globe.gif",
         "type": "interactive",
-        "date": "Aug 2025",
+        "date": "Mar 2026",
         "new": 1,
-        "url": "https://edition.cnn.com/interactive/2025/08/05/world/north-korea-it-worker-scheme-vis-intl-hnk/index.html"
+        "url": "https://edition.cnn.com/interactive/2026/03/world/china-deep-sea-mining-military-vis-intl/"
+    },{
+        "order": 1,
+        "name": "Visualizing the US-Israeli war with Iran and retaliation in maps and charts",
+        "img": "hormuz-hp.gif",
+        "type": "explainer",
+        "date": "Dec 2025",
+        "new": 1,
+        "url": "https://edition.cnn.com/2025/12/03/middleeast/bulldozed-corpses-gaza-israel-zikim-aid-intl-vis-invs"
+    },{
+        "order": 1,
+        "name": "CNN investigates the fate of Gaza’s missing aid seekers",
+        "img": "20251202-gaza-zikim-hp-after.png",
+        "type": "explainer",
+        "date": "Mar 2026",
+        "new": 1,
+        "url": "https://edition.cnn.com/2026/02/28/middleeast/maps-iran-tehran-attack-vis-intl"
+    },{
+        "order": 2,
+        "name": "Satellite images, maps and records reveal huge surge in China’s missile production sites",
+        "img": "20251106-trump-china-missiles.jpg",
+        "type": "interactive",
+        "date": "Nov 2025",
+        "new": 1,
+        "url": "https://edition.cnn.com/2025/11/07/world/china-missile-production-expansion-revealed-satellite-images-intl-invs"
+    },
+    {
+        "order": 3,
+        "name": "How Israeli actions caused famine in Gaza, visualized",
+        "img": "20250902-gaza-famine.jpg",
+        "type": "interactive",
+        "date": "Oct 2025",
+        "new": 1,
+        "url": "https://edition.cnn.com/2025/10/02/middleeast/gaza-famine-causes-vis-intl"
     },
     {
         "order": 2,
@@ -25,6 +59,15 @@
         "date": "Aug 2025",
         "new": 1,
         "url": "https://edition.cnn.com/2025/08/15/climate/rainham-volcano-arnolds-field-landfill"
+    },
+    {
+        "order": 4,
+        "name": "Everything you need to know about Iran’s nuclear program",
+        "img": "20250613-irannuclear-hp-02.png",
+        "type": "explainer",
+        "date": "June 2025",
+        "new": 0,
+        "url": "https://edition.cnn.com/2025/06/13/middleeast/iran-nuclear-program-explainer-intl-dg"
     },
     {
         "order": 4,
@@ -209,7 +252,7 @@
     {
         "order": 24,
         "name": "Analysis of images and videos suggests rocket caused Gaza hospital blast",
-        "img": "heat-future-olympics.jpg",
+        "img": "20240111-gaza-hospitals-card.jpg",
         "type": "carto",
         "date": "Oct 2023",
         "new": 0,
@@ -245,7 +288,7 @@
     {
         "order": 28,
         "name": "Explosion likely brought down aircraft carrying Wagner boss",
-        "img": "heat-future-olympics.jpg",
+        "img": "cover.png",
         "type": "explainer",
         "date": "Aug 2023",
         "new": 0,

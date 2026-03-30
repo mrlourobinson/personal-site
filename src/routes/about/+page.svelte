@@ -8,3 +8,15 @@
     <p>I'm originally from Teesside in North East England, and currently based in London.</p>
 </div>
 <slot />
+
+
+<style>
+    .bio {
+        width: 50%;
+        margin: 10vh auto 0 auto;
+    }
+
+    .bio p {
+        font-size: .9em;
+    }
+</style>

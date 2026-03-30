@@ -1,28 +1,20 @@
+<script>
+  import NameHeader from '../lib/NameHeader.svelte';
+  import { fade } from 'svelte/transition';
+  import { page } from '$app/stores';
+</script>
+
 <main>
-  <header>
-    <section class="titles">
-      <div id="mark" style="background-image: url('../img/face.svg')"></div>
-      <span class="top-item name">
-        <a href="/">Lou Robinson</a>
-      </span>
-      <span class="top-item title">
-        Designer and visual journalist
-      </span>
-    </section>
-    <section class="links">
-      <span class="top-item link" id="work">
-        <a href="/">Work</a>
-      </span>
-      <span class="top-item link" id="about">
-        <a href="/about">About</a>
-      </span>
-    </section>
-  </header>
+  
+      <NameHeader />
 
   <section class="content">
 
-
-    <slot />
+    {#key $page.url.pathname}
+      <div in:fade={{ duration: 150 }} out:fade={{ duration: 0 }}>
+        <slot />
+      </div>
+    {/key}
 
   </section>
 
@@ -30,9 +22,16 @@
 
 </main>
 <footer>
-  Lou Robinson
 </footer>
 
 <style>
 @import '../app.css';
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
 </style>
