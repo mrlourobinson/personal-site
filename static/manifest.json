@@ -1,0 +1,16 @@
+{
+  "name": "Lou Robinson - Award-Winning Visual Journalist",
+  "short_name": "Lou Robinson",
+  "description": "Portfolio of award-winning data visualization, cartography, and interactive journalism projects",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#e8e8e7",
+  "theme_color": "#212121",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}

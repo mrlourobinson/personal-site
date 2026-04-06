@@ -15,7 +15,7 @@
         "type": "explainer",
         "date": "Dec 2025",
         "new": 1,
-        "url": "https://edition.cnn.com/2025/12/03/middleeast/bulldozed-corpses-gaza-israel-zikim-aid-intl-vis-invs"
+        "url": "https://edition.cnn.com/2026/02/28/middleeast/maps-iran-tehran-attack-vis-intl"
     },{
         "order": 1,
         "name": "CNN investigates the fate of Gaza’s missing aid seekers",
@@ -23,7 +23,7 @@
         "type": "explainer",
         "date": "Mar 2026",
         "new": 1,
-        "url": "https://edition.cnn.com/2026/02/28/middleeast/maps-iran-tehran-attack-vis-intl"
+        "url": "https://edition.cnn.com/2025/12/03/middleeast/bulldozed-corpses-gaza-israel-zikim-aid-intl-vis-invs"
     },{
         "order": 2,
         "name": "Satellite images, maps and records reveal huge surge in China’s missile production sites",
@@ -104,15 +104,6 @@
         "date": "April 2025",
         "new": 0,
         "url": "https://edition.cnn.com/2025/04/28/world/conclave-pope-selection-intl-dg"
-    },
-    {
-        "order": 8,
-        "name": "Is Europe ready to defend itself?",
-        "img": "ap24134697015992.jpg",
-        "type": "data carto",
-        "date": "May 2025",
-        "new": 0,
-        "url": "https://edition.cnn.com/2025/05/05/europe/europe-nato-us-military-graphics-cmd-intl-dg"
     },
     {
         "order": 9,
@@ -286,15 +277,6 @@
         "url": "https://edition.cnn.com/interactive/2023/09/world/ukraine-war-counteroffensive-maps-guide-dg/"
     },
     {
-        "order": 28,
-        "name": "Explosion likely brought down aircraft carrying Wagner boss",
-        "img": "cover.png",
-        "type": "explainer",
-        "date": "Aug 2023",
-        "new": 0,
-        "url": "https://edition.cnn.com/2023/08/25/europe/prigozhin-plane-crash-visual-investigation-cmd-intl/index.html"
-    },
-    {
         "order": 29,
         "name": "Britain's shadowy border",
         "img": "230726164209-01-uk-asylum-boats-overlay-tease.jpg",
@@ -302,23 +284,5 @@
         "date": "July 2023",
         "new": 0,
         "url": "https://edition.cnn.com/interactive/2023/07/uk/migrant-crossings-ai-small-boats/"
-    },
-    {
-        "order": 30,
-        "name": "Where the deadliest twisters touch down in the US",
-        "img": "tornadoes-thumb-largetease.png",
-        "type": "carto",
-        "date": "June 2023",
-        "new": 0,
-        "url": "https://edition.cnn.com/2023/06/09/weather/deadliest-tornadoes-us-southern-tornado-alley-dg/index.html"
-    },
-    {
-        "order": 31,
-        "name": "A once-in-200 years‚ heat wave caught Southeast Asia off guard",
-        "img": "230526111920-03-thailand-heatwave-0425.jpg",
-        "type": "data carto",
-        "date": "June 2023",
-        "new": 0,
-        "url": "https://edition.cnn.com/2023/06/06/asia/southeast-asia-heat-wave-humidity-climate-intl-hnk-dst-scn-dg/index.html"
     }
 ]
