@@ -2,6 +2,13 @@
   import NameHeader from '../lib/NameHeader.svelte';
   import { fade } from 'svelte/transition';
   import { page } from '$app/stores';
+  import { pageview } from '../lib/analytics';
+  import { afterNavigate } from '$app/navigation';
+
+  // Track page views on navigation
+  afterNavigate(() => {
+    pageview($page.url.pathname);
+  });
 </script>
 
 <main>
